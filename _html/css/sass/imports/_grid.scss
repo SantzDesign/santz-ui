@@ -1,0 +1,41 @@
+  .container                                   { position: relative; max-width: 1260px; padding: 0; margin: 0 auto; }
+  .container .column                           { float: left; display: inline; padding: 0 20px; }
+
+  .row                                         { margin: 0 0 20px; }
+
+  .container .column.alpha                     { padding-left: 0; }
+  .container .column.omega                     { padding-right: 0; }
+
+  .container .col-nr-25.column                 { width: 25%; }
+  .container .col-nr-40.column                 { width: 40%; }
+  .container .col-nr-50.column                 { width: 50%; }
+  .container .col-nr-60.column                 { width: 60%; }
+  .container .col-nr-75.column                 { width: 75%; }
+  .container .col-nr-100.column                { width: 100%; }
+
+  .container .col-nr-1-3.column                { width: 33.333333333333336%; }
+  .container .col-nr-2-3.column                { width: 66.66666666666667%; }
+
+  .container:after { content: '\0020'; display: block; height: 0; clear: both; visibility: hidden; }
+
+  .clearfix:before, .clearfix:after,
+  .row:before, .row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .row:after, .clearfix:after { clear: both; }
+  .row, .clearfix { zoom: 1; }
+
+  .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }

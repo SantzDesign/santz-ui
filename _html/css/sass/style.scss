@@ -1,0 +1,125 @@
+/*
+ * Santz Front-end Boilerplate, made by Santz
+ *
+ * Benavidez, Buenos Aires, Argentina
+ * Copyright 2014, Santz Design
+ *
+ * http://santz.com.ar | https://github.com/SantzDesign/Santz
+ * hi@santz.com.ar
+ */
+
+/*
+ * Compass
+ */
+
+  @import "compass";
+
+/*
+ * Box Sizing
+ */
+
+  *, *:after, *:before {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    @include box-sizing(border-box);
+  }
+
+/*
+ * CSS Reset
+ */
+
+  @import "imports/_reset";
+
+/*
+ * Variables
+ */
+
+/*
+ * Main
+ */
+
+  body {
+    font: 300 16px/1.4 'Roboto', sans-serif;
+    color: #2e2e2e;
+    background: #dfdfdf;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    @include transition(color .2s ease);
+  }
+
+  a img { border: 0; }
+
+  ::-moz-selection {
+    background: #3f6079;
+    color: #f8fafb;
+    text-shadow: none;
+  }
+
+  ::selection {
+    background: #3f6079;
+    color: #f8fafb;
+    text-shadow: none;
+  }
+
+/*
+ * Text & Headings
+ */
+
+  h1, h2, h3, h4 { line-height: 1.2; }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  h4 {
+    font-size: 19px;
+    font-weight: 300;
+  }
+
+/*
+ * Modules
+ */
+
+  @import "imports/_grid";
+
+  @import "imports/_assets";
+
+  @import "imports/_forms";
+
+  @import "imports/_header";
+
+  @import "imports/_footer";
+
+/*
+ * Specifics
+ */
+
+  @import "imports/_specific.home";
+
+/*
+ * Media
+ */
+
+  @import "imports/_media";

@@ -1,0 +1,365 @@
+/*
+ * Santz Front-end Boilerplate, made by Santz
+ *
+ * Benavidez, Buenos Aires, Argentina
+ * Copyright 2014, Santz Design
+ *
+ * http://santz.com.ar | https://github.com/SantzDesign/Santz
+ * hi@santz.com.ar
+ */
+/*
+ * Compass
+ */
+/*
+ * Box Sizing
+ */
+/* line 21, ../sass/style.scss */
+*, *:after, *:before {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ * CSS Reset
+ */
+/* line 12, ../sass/imports/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 22, ../sass/imports/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 24, ../sass/imports/_reset.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 26, ../sass/imports/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../sass/imports/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, ../sass/imports/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 42, ../sass/imports/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 48, ../sass/imports/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 55, ../sass/imports/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 57, ../sass/imports/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 62, ../sass/imports/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 67, ../sass/imports/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+/* line 75, ../sass/imports/_reset.scss */
+input, select, button, textarea {
+  vertical-align: middle;
+  outline: none;
+}
+
+/*
+ * Variables
+ */
+/*
+ * Main
+ */
+/* line 41, ../sass/style.scss */
+body {
+  font: 300 16px/1.4 'Roboto', sans-serif;
+  color: #2e2e2e;
+  background: #dfdfdf;
+  min-width: 320px;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 49, ../sass/style.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 54, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+/* line 61, ../sass/style.scss */
+a img {
+  border: 0;
+}
+
+/* line 63, ../sass/style.scss */
+::-moz-selection {
+  background: #3f6079;
+  color: #f8fafb;
+  text-shadow: none;
+}
+
+/* line 69, ../sass/style.scss */
+::selection {
+  background: #3f6079;
+  color: #f8fafb;
+  text-shadow: none;
+}
+
+/*
+ * Text & Headings
+ */
+/* line 79, ../sass/style.scss */
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+
+/* line 81, ../sass/style.scss */
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* line 86, ../sass/style.scss */
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/* line 91, ../sass/style.scss */
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/* line 96, ../sass/style.scss */
+h4 {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+/*
+ * Modules
+ */
+/* line 1, ../sass/imports/_grid.scss */
+.container {
+  position: relative;
+  max-width: 1260px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* line 2, ../sass/imports/_grid.scss */
+.container .column {
+  float: left;
+  display: inline;
+  padding: 0 20px;
+}
+
+/* line 4, ../sass/imports/_grid.scss */
+.row {
+  margin: 0 0 20px;
+}
+
+/* line 6, ../sass/imports/_grid.scss */
+.container .column.alpha {
+  padding-left: 0;
+}
+
+/* line 7, ../sass/imports/_grid.scss */
+.container .column.omega {
+  padding-right: 0;
+}
+
+/* line 9, ../sass/imports/_grid.scss */
+.container .col-nr-25.column {
+  width: 25%;
+}
+
+/* line 10, ../sass/imports/_grid.scss */
+.container .col-nr-40.column {
+  width: 40%;
+}
+
+/* line 11, ../sass/imports/_grid.scss */
+.container .col-nr-50.column {
+  width: 50%;
+}
+
+/* line 12, ../sass/imports/_grid.scss */
+.container .col-nr-60.column {
+  width: 60%;
+}
+
+/* line 13, ../sass/imports/_grid.scss */
+.container .col-nr-75.column {
+  width: 75%;
+}
+
+/* line 14, ../sass/imports/_grid.scss */
+.container .col-nr-100.column {
+  width: 100%;
+}
+
+/* line 16, ../sass/imports/_grid.scss */
+.container .col-nr-1-3.column {
+  width: 33.333333333333336%;
+}
+
+/* line 17, ../sass/imports/_grid.scss */
+.container .col-nr-2-3.column {
+  width: 66.66666666666667%;
+}
+
+/* line 19, ../sass/imports/_grid.scss */
+.container:after {
+  content: '\0020';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 22, ../sass/imports/_grid.scss */
+.clearfix:before, .clearfix:after,
+.row:before, .row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 31, ../sass/imports/_grid.scss */
+.row:after, .clearfix:after {
+  clear: both;
+}
+
+/* line 32, ../sass/imports/_grid.scss */
+.row, .clearfix {
+  zoom: 1;
+}
+
+/* line 34, ../sass/imports/_grid.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 1, ../sass/imports/_assets.scss */
+.button {
+  font: 300 16px/1.2 'Roboto', sans-serif;
+  color: #fff;
+  border: 0;
+  -webkit-transition: background 0.2s ease;
+  -moz-transition: background 0.2s ease;
+  -o-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+}
+
+/* line 2, ../sass/imports/_header.scss */
+#logo a {
+  display: block;
+  height: 80px;
+  width: 200px;
+  background: url(../../images/sprite.png) 0 0 no-repeat;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+}
+
+/*
+ * Specifics
+ */
+/*
+ * Media
+ */
+/*
+ * Retina Ready
+ */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 12, ../sass/imports/_media.scss */
+  #logo a {
+    background-image: url(../../images/sprite@2x.png);
+    -webkit-background-size: 400px 320px;
+    -moz-background-size: 400px 320px;
+    -o-background-size: 400px 320px;
+    background-size: 400px 320px;
+  }
+}
+/*
+ * Regular Media Queries
+ */

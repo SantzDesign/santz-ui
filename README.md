@@ -48,18 +48,18 @@ CSS should be beautifully designed, just as the site you are coding. Keep these 
 
 See example...
 
-  .class {
-    property: value;
-
-    @include anymixin(value);
-
-    &.class { property: value; }
-
-    &.class {
+    .class {
       property: value;
-      property: value;
+
+      @include anymixin(value);
+
+      &.class { property: value; }
+
+      &.class {
+        property: value;
+        property: value;
+      }
     }
-  }
 
 
 ### Workflow

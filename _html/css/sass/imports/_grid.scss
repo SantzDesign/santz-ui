@@ -1,18 +1,24 @@
   .container                                   { position: relative; max-width: 1260px; padding: 0; margin: 0 auto; }
-  .container .column                           { float: left; display: inline; padding: 0 20px; }
+
+  .col-md-25, .col-md-50, .col-md-75,
+  .col-md-100, .col-md-1-3, .col-md-2-3,
+  .col-xs-25, .col-xs-50, .col-xs-75,
+  .col-xs-100, .col-xs-1-3, .col-xs-2-3,
+  .col-xl-25, .col-xl-50, .col-xl-75,
+  .col-xl-100, .col-xl-1-3, .col-xl-2-3        { float: left; display: inline; padding: 0 20px; }
 
   .row                                         { margin: 0 0 20px; }
 
-  .container .column.alpha                     { padding-left: 0; }
-  .container .column.omega                     { padding-right: 0; }
+  .container .alpha                            { padding-left: 0; }
+  .container .omega                            { padding-right: 0; }
 
-  .container .col-md-25.column                 { width: 25%; }
-  .container .col-md-50.column                 { width: 50%; }
-  .container .col-md-75.column                 { width: 75%; }
-  .container .col-md-100.column                { width: 100%; }
+  .col-md-25, .col-xs-25, .col-xl-25           { width: 25%; }
+  .col-md-50, .col-xs-50, .col-xl-50           { width: 50%; }
+  .col-md-75, .col-xs-75, .col-xl-75           { width: 75%; }
+  .col-md-100, .col-xs-100, .col-xl-100        { width: 100%; }
 
-  .container .col-md-1-3.column                { width: 33.333333333333336%; }
-  .container .col-md-2-3.column                { width: 66.66666666666667%; }
+  .col-md-1-3, .col-xs-1-3, .col-xl-1-3        { width: 33.33333333%; }
+  .col-md-2-3, .col-xs-2-3, .col-xl-2-3        { width: 66.66666667%; }
 
   .container:after { content: '\0020'; display: block; height: 0; clear: both; visibility: hidden; }
 

@@ -23,8 +23,10 @@
   <!-- Favicon & iPhone Icon -->
     <link rel="icon" type="image/png" href="[WEB ADDRESS]/images/favicon.png">
     <link rel="shortcut icon" href="[WEB ADDRESS]/images/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="[WEB ADDRESS]/images/apple-touch-icon-iphone.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="[WEB ADDRESS]/images/apple-touch-icon-ipad.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="[WEB ADDRESS]/images/apple-touch-icon-iphone.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="[WEB ADDRESS]/images/apple-touch-icon-ipad.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="[WEB ADDRESS]/images/apple-touch-icon-iphone@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="[WEB ADDRESS]/images/apple-touch-icon-ipad@2x.png">
 
   <title>Website Title</title>
 </head>

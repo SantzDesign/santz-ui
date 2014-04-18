@@ -39,7 +39,7 @@ IDs should not be used as a styling tool.
 CSS should be beautifully designed, just as the site you are coding. Keep these in mind:
 
  * { on same line as selector
- * Space between rule and brace ( ".asd" { NOT ".asd{" )
+ * Space between rule and brace ( ".asd {" NOT ".asd{" )
  * Properties on new line, unless if it's a single property
  * Properties in somekind of logical order
  * space between property and value colon ( "display: none" NOT "display:none" )
@@ -48,18 +48,18 @@ CSS should be beautifully designed, just as the site you are coding. Keep these 
 
 See example...
 
-  .class {
-    property: value;
-
-    @include anymixin(value);
-
-    &.class { property: value; }
-
-    &.class {
+    .class {
       property: value;
-      property: value;
+
+      @include anymixin(value);
+
+      &.class { property: value; }
+
+      &.class {
+        property: value;
+        property: value;
+      }
     }
-  }
 
 
 ### Workflow

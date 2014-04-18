@@ -9,7 +9,7 @@
 
     <meta property="og:title" content="Website Title.">
     <meta property="og:description" content="Website description.">
-    <meta property="og:image" content="[WEB ADDRESS]/images/absolutart.png">
+    <meta property="og:image" content="[WEB ADDRESS]/images/anyimage.png">
     <meta property="og:url" content="[WEB ADDRESS]">
 
   <!-- CSS & Fonts -->

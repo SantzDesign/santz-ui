@@ -240,46 +240,36 @@ h4 {
 }
 
 /* line 9, ../sass/imports/_grid.scss */
-.container .col-nr-25.column {
+.container .col-md-25.column {
   width: 25%;
 }
 
 /* line 10, ../sass/imports/_grid.scss */
-.container .col-nr-40.column {
-  width: 40%;
-}
-
-/* line 11, ../sass/imports/_grid.scss */
-.container .col-nr-50.column {
+.container .col-md-50.column {
   width: 50%;
 }
 
-/* line 12, ../sass/imports/_grid.scss */
-.container .col-nr-60.column {
-  width: 60%;
-}
-
-/* line 13, ../sass/imports/_grid.scss */
-.container .col-nr-75.column {
+/* line 11, ../sass/imports/_grid.scss */
+.container .col-md-75.column {
   width: 75%;
 }
 
-/* line 14, ../sass/imports/_grid.scss */
-.container .col-nr-100.column {
+/* line 12, ../sass/imports/_grid.scss */
+.container .col-md-100.column {
   width: 100%;
 }
 
-/* line 16, ../sass/imports/_grid.scss */
-.container .col-nr-1-3.column {
+/* line 14, ../sass/imports/_grid.scss */
+.container .col-md-1-3.column {
   width: 33.333333333333336%;
 }
 
-/* line 17, ../sass/imports/_grid.scss */
-.container .col-nr-2-3.column {
+/* line 15, ../sass/imports/_grid.scss */
+.container .col-md-2-3.column {
   width: 66.66666666666667%;
 }
 
-/* line 19, ../sass/imports/_grid.scss */
+/* line 17, ../sass/imports/_grid.scss */
 .container:after {
   content: '\0020';
   display: block;
@@ -288,7 +278,7 @@ h4 {
   visibility: hidden;
 }
 
-/* line 22, ../sass/imports/_grid.scss */
+/* line 20, ../sass/imports/_grid.scss */
 .clearfix:before, .clearfix:after,
 .row:before, .row:after {
   content: '\0020';
@@ -299,17 +289,17 @@ h4 {
   height: 0;
 }
 
-/* line 31, ../sass/imports/_grid.scss */
+/* line 29, ../sass/imports/_grid.scss */
 .row:after, .clearfix:after {
   clear: both;
 }
 
-/* line 32, ../sass/imports/_grid.scss */
+/* line 30, ../sass/imports/_grid.scss */
 .row, .clearfix {
   zoom: 1;
 }
 
-/* line 34, ../sass/imports/_grid.scss */
+/* line 32, ../sass/imports/_grid.scss */
 .clear {
   clear: both;
   display: block;

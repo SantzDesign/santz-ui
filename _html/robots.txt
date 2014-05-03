@@ -1,0 +1,23 @@
+# Learn how to use this here: http://pgwebdesign.net/blog/how-to-create-a-simple-robots-txt-file-for-your-website
+
+# Disallow bots (User-agents) to index or crawl the duplicate content (for example, admin and includes WordPress folders, or cgi-bin folder, or JS and CSS files. 
+
+# ALL USER-AGENTS (GOOGLE, BING, YAHOO, ETC...)
+User-agent: *
+Disallow: /wordpress/wp-admin/
+Disallow: /wordpress/wp-includes/
+Disallow: /cgi-bin/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# GOOGLE IMAGES USER-AGENT
+User-agent: Googlebot-Image
+Disallow:
+Allow: /*
+
+# GOOGLE ADSENSE USER-AGENT
+User-agent: Mediapartners-Google*
+Disallow:
+Allow: /*
+
+Sitemap: http://www.tempboxboilerplate.com/sitemap.xml

@@ -10,9 +10,13 @@ php_value zlib.output_compression_level 5
   php_value default_mimetype "text/javascript"
 </FilesMatch>
 
-# Redirect non-www to www
-RewriteCond %{HTTP_HOST} ^(?!www\.)(.+) [NC]
-RewriteRule ^(.*) http://www.%1/$1 [R=301,NE,L]
+# Generic redirect non-www to www
+# RewriteCond %{HTTP_HOST} ^(?!www\.)(.+) [NC]
+# RewriteRule ^(.*) http://www.%1/$1 [R=301,NE,L]
+
+# Generic redirect www to non-www
+# RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+# RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 # Remove extension from PHP files
 RewriteCond %{REQUEST_FILENAME} !-f

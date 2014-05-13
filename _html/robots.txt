@@ -20,4 +20,4 @@ User-agent: Mediapartners-Google*
 Disallow:
 Allow: /*
 
-Sitemap: http://www.tempboxboilerplate.com/sitemap.xml
+Sitemap: [WEB ADDRESS]/sitemap.xml

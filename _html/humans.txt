@@ -1,4 +1,4 @@
-/* Santz Design */
+/* Santz Boilerplate */
 
 Designer: -
 Web Developer: -

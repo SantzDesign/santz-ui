@@ -8,7 +8,7 @@ Github: -
 Website: [WEB ADDRESS]
 From: -
 
-Last update: 2013/mm/dd
+Last update: 2014/mm/dd
 Language: English
 Doctype: HTML5
 IDE: Sublime Text 3, Photoshop, Google PageSpeed Insights, GTMetrix, YUI Compressor, Yahoo! SmushIt, W3C Validator

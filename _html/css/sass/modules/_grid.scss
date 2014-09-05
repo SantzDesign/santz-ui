@@ -1,0 +1,47 @@
+.container                                   { position: relative; max-width: 1260px; padding: 0; margin: 0 auto; }
+
+.col-md-25, .col-md-50, .col-md-75,
+.col-md-100, .col-md-1-3, .col-md-2-3,
+.col-xs-25, .col-xs-50, .col-xs-75,
+.col-xs-100, .col-xs-1-3, .col-xs-2-3,
+.col-xl-25, .col-xl-50, .col-xl-75,
+.col-xl-100, .col-xl-1-3, .col-xl-2-3        { float: left; display: inline; padding: 0 20px; }
+
+.row                                         { margin: 0 0 20px; }
+
+.container .alpha                            { padding-left: 0; }
+.container .omega                            { padding-right: 0; }
+
+.col-md-25, .col-xs-25, .col-xl-25           { width: 25%; }
+.col-md-50, .col-xs-50, .col-xl-50           { width: 50%; }
+.col-md-75, .col-xs-75, .col-xl-75           { width: 75%; }
+.col-md-100, .col-xs-100, .col-xl-100        { width: 100%; }
+
+.col-md-1-3, .col-xs-1-3, .col-xl-1-3        { width: 33.33333333%; }
+.col-md-2-3, .col-xs-2-3, .col-xl-2-3        { width: 66.66666667%; }
+
+// Self-clearing goodness
+
+.container:after { content: '\0020'; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before, .clearfix:after,
+.row:before, .row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

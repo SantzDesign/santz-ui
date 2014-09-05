@@ -25,23 +25,50 @@
   }
 
 /*
- * CSS Reset
+ * Normalize
  */
 
-  @import "imports/_reset";
+  @import "modules/normalize";
 
 /*
  * Variables
  */
+
+  $text-color:              #2e2e2e;
+  $link-color:              #ccc;
+  $font-size:               16px;
+  $line-height:             1.4;
+  $sans-serif-font-family:  'Roboto', sans-serif;
+  $serif-font-family:       'Times New Roman', serif;
+
+  $ultra-bold:              900;
+  $bold:                    700;
+  $medium:                  500;
+  $normal:                  400;
+  $light:                   300;
+  $thin:                    100;
+
+  $headings-line-height:    1.2;
+  $h1:                      28px;
+  $h2:                      25px;
+  $h3:                      22px;
+  $h4:                      19px;
+
+  $body-bg:                 #dfdfdf;
+  $selection-bg:            #3f6079;
+  $selection-color:         #f8fafb;
+
+  $transition-easing:       ease;
+  $transition-timing:       0.3s;
 
 /*
  * Main
  */
 
   body {
-    font: 300 16px/1.4 'Roboto', sans-serif;
-    color: #2e2e2e;
-    background: #dfdfdf;
+    font: 300 $font-size/$line-height $sans-serif-font-family;
+    color: $text-color;
+    background: $body-bg;
     min-width: 320px;
     -webkit-text-size-adjust: 100%;
   }
@@ -53,73 +80,51 @@
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: $link-color;
 
-    @include transition(color .2s ease);
+    @include transition(color $transition-timing $transition-easing);
   }
 
   a img { border: 0; }
 
   ::-moz-selection {
-    background: #3f6079;
-    color: #f8fafb;
+    background: $selection-bg;
+    color: $selection-color;
     text-shadow: none;
   }
 
   ::selection {
-    background: #3f6079;
-    color: #f8fafb;
+    background: $selection-bg;
+    color: $selection-color;
     text-shadow: none;
-  }
-
-/*
- * Text & Headings
- */
-
-  h1, h2, h3, h4 { line-height: 1.2; }
-
-  h1 {
-    font-size: 28px;
-    font-weight: 500;
-  }
-
-  h2 {
-    font-size: 25px;
-    font-weight: 300;
-  }
-
-  h3 {
-    font-size: 22px;
-    font-weight: 300;
-  }
-
-  h4 {
-    font-size: 19px;
-    font-weight: 300;
   }
 
 /*
  * Modules
  */
 
-  @import "imports/_grid";
+  @import "modules/grid";
 
-  @import "imports/_assets";
+  @import "modules/type";
 
-  @import "imports/_forms";
+  @import "modules/buttons";
 
-  @import "imports/_header";
-
-  @import "imports/_footer";
+  @import "modules/forms";
 
 /*
  * Specifics
  */
 
-  @import "imports/_specific.home";
+  @import "parts/header";
+
+  @import "parts/footer";
+
+  @import "parts/home";
 
 /*
  * Media
  */
 
-  @import "imports/_media";
+  @import "modules/media";
+
+  @import "modules/retina";

@@ -70,7 +70,6 @@
     color: $text-color;
     background: $body-bg;
     min-width: 320px;
-    -webkit-text-size-adjust: 100%;
   }
 
   img {
@@ -84,8 +83,6 @@
 
     @include transition(color $transition-timing $transition-easing);
   }
-
-  a img { border: 0; }
 
   ::-moz-selection {
     background: $selection-bg;

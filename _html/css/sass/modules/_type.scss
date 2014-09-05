@@ -1,4 +1,7 @@
-h1, h2, h3, h4 { line-height: $headings-line-height; }
+h1, h2, h3, h4 {
+  line-height: $headings-line-height;
+  margin: 0;
+}
 
 h1 {
   font-size: $h1;

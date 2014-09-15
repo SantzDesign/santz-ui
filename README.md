@@ -79,5 +79,5 @@ In terms of workflow I consider that working on larger sizes first helps.
 
  - Bootstrap, grid concepts // http://getbootstrap.com
  - Skeleton, grid concepts // http://www.getskeleton.com
- - HTML5 Doctor Reset, CSS reset // http://html5doctor.com/html-5-reset-stylesheet
+ - Normalize.css // http://necolas.github.io/normalize.css
  - Compass // http://compass-style.org

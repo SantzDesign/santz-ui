@@ -75,6 +75,17 @@ In terms of workflow I consider that working on larger sizes first helps.
  5. Deploy.
 
 
+### Responsive development and the mobile first approach
+
+Performance is crucial, and sites we develop must always be 100% performance optimized, disregarding the fact it will never be used on a mobile device whatsoever.
+
+Performance is a non-negotiable factor.
+
+This being said, although mobile first development is usually a personal choice or an enforced request, I'd rather build the desktop site, and then adapt it for smaller screens.
+
+All in all, always produce lean and optimized CSS code, always use hardware accelerated solutions and always prefer clean and modern JavaScript code.
+
+
 ### Credits
 
  - Bootstrap, grid concepts // http://getbootstrap.com

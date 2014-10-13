@@ -49,24 +49,25 @@
   $thin:                    100;
 
   $headings-line-height:    1.2;
+  $headings-font-weight:    $light;
   $h1:                      28px;
   $h2:                      25px;
   $h3:                      22px;
   $h4:                      19px;
+  $h5:                      18px;
+  $h6:                      17px;
 
   $body-bg:                 #dfdfdf;
   $selection-bg:            #3f6079;
   $selection-color:         #f8fafb;
-
-  $transition-easing:       ease;
-  $transition-timing:       0.3s;
 
 /*
  * Main
  */
 
   body {
-    font: 300 $font-size/$line-height $sans-serif-font-family;
+    font: $normal $font-size $sans-serif-font-family;
+    line-height: $line-height;
     color: $text-color;
     background: $body-bg;
     min-width: 320px;
@@ -81,7 +82,7 @@
     text-decoration: none;
     color: $link-color;
 
-    @include transition(color $transition-timing $transition-easing);
+    @include transition(color 0.3s ease);
   }
 
   ::-moz-selection {

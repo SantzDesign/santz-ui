@@ -48,8 +48,11 @@
     <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <!-- Others -->
+  <!--[if IE]>
     <meta name="X-UA-Compatible" content="IE=edge">
+  <![endif]-->
+
+  <!-- Others -->
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <meta name="apple-mobile-web-app-capable" content="no">
 </head>

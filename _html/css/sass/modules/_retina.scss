@@ -10,7 +10,6 @@
   .logo a,
   .sprite {
     background-image: url(../../images/sprite@2x.png);
-
-    @include background-size(512px 512px);
+    background-size: 512px 512px;
   }
 }

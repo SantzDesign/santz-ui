@@ -33,7 +33,7 @@
     <meta property="twitter:url" content="[WEB ADDRESS]">
 
   <!-- CSS & Fonts -->
-    <link type="text/css" rel="stylesheet" href="css/dist/style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
 
   <!-- Favicon & iPhone Icon -->

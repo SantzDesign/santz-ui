@@ -89,6 +89,6 @@ All in all, always produce lean and optimized CSS code, always use hardware acce
 ### Credits
 
  - Bootstrap, grid concepts // http://getbootstrap.com
- - Skeleton, grid concepts // http://www.getskeleton.com
+ - Skeleton, grid // http://www.getskeleton.com
  - Normalize.css // http://necolas.github.io/normalize.css
- - Compass // http://compass-style.org
+ - Bourbon // http://bourbon.io

@@ -60,7 +60,7 @@ See example...
       }
     }
 
-ALWAYS keep your CS modular. Separate assets from page specifics. Do not repeat yourself. Produce clean code, avoid hacks, and since we're already 2014+, try to stop supporting old browsers (being this IE8 for instance...) since by doing that you are just delaying web development future.
+ALWAYS keep your CSS modular. Separate assets from page specifics. Do not repeat yourself. Produce clean code, avoid hacks, and since we're already 2014+, try to stop supporting old browsers (being this IE8 for instance...) since by doing that you are just delaying web development future.
 
 
 ### Workflow

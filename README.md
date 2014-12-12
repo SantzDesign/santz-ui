@@ -6,7 +6,7 @@ Santz front-end boilerplate. Responsive, HTML5, retina-ready, IE9+
 ### Setup folder structure
 
 The bolierplate has 5 main folders:
- * CSS, which contains a DIST folder for compiled CSS and a SASS folder for development
+ * CSS, which contains a SASS folder for development and the main compiled CSS file
  * Fonts
  * Images
  * Includes
@@ -28,7 +28,6 @@ If using a pre-processor, don't nest more the 3 times if possible. This simplifi
 ##### 3) Only use IDs when necessary  
 
 IDs are fine in the following contexts.
- * Main logo
  * Forms
  * Anchors
 
@@ -60,6 +59,8 @@ See example...
         property: value;
       }
     }
+
+ALWAYS keep your CS modular. Separate assets from page specifics. Do not repeat yourself. Produce clean code, avoid hacks, and since we're already 2014+, try to stop supporting old browsers (being this IE8 for instance...) since by doing that you are just delaying web development future.
 
 
 ### Workflow

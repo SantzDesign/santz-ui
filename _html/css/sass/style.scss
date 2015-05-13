@@ -61,6 +61,10 @@
   $selection-bg:            #3f6079;
   $selection-color:         #f8fafb;
 
+  $transitions-timing:      0.3s;
+
+  $cursor-disabled:         not-allowed;
+
 /*
  * Main
  */
@@ -82,7 +86,7 @@
     text-decoration: none;
     color: $link-color;
 
-    @include transition(color 0.3s ease);
+    @include transition(color $transitions-timing ease, background-color $transitions-timing ease, border-color $transitions-timing ease, opacity $transitions-timing ease, visibility $transitions-timing ease, transform $transitions-timing ease);
   }
 
   ::-moz-selection {
@@ -102,6 +106,8 @@
  */
 
   @import "modules/fonts";
+
+  @import "modules/assets";
 
   @import "modules/grid";
 

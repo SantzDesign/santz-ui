@@ -31,7 +31,7 @@
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
-    cursor: not-allowed;
+    cursor: $cursor-disabled;
     pointer-events: none;
   }
 }

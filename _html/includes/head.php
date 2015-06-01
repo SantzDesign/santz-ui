@@ -39,13 +39,14 @@
   <!-- Favicon & iPhone Icon -->
     <link rel="icon" type="image/png" href="[WEB ADDRESS]/images/favicon.png">
     <link rel="shortcut icon" type="image/png" href="[WEB ADDRESS]/images/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="[WEB ADDRESS]/images/apple-touch-icon-iphone.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="[WEB ADDRESS]/images/apple-touch-icon-ipad.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="[WEB ADDRESS]/images/apple-touch-icon-iphone@2x.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="[WEB ADDRESS]/images/apple-touch-icon-ipad@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="[WEB ADDRESS]/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="[WEB ADDRESS]/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="[WEB ADDRESS]/images/apple-touch-icon-180x180.png">
+
 
   <!--[if lt IE 9]>
-    <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
   <!--[if IE]>

@@ -48,15 +48,6 @@
   $light:                   300;
   $thin:                    100;
 
-  $headings-line-height:    1.2;
-  $headings-font-weight:    $light;
-  $h1:                      28px;
-  $h2:                      25px;
-  $h3:                      22px;
-  $h4:                      19px;
-  $h5:                      18px;
-  $h6:                      17px;
-
   $body-bg:                 #dfdfdf;
   $selection-bg:            #3f6079;
   $selection-color:         #f8fafb;
@@ -117,6 +108,8 @@
 
   @import "modules/forms";
 
+  @import "modules/sprite";
+
 /*
  * Specifics
  */
@@ -126,6 +119,10 @@
   @import "parts/footer";
 
   @import "parts/home";
+
+  @import "parts/about";
+
+  @import "parts/blog";
 
 /*
  * Media

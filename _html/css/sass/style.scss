@@ -1,11 +1,11 @@
 /*
- * [Santz Front-end Boilerplate], made by [Santz]
+ * [Name of the site], by [Author]
  *
- * [Benavidez, Buenos Aires, Argentina]
- * Copyright [2015], [Santz Design]
+ * [City, State, Country]
+ * Copyright [Year], [Company]
  *
- * [http://santz.co] | [https://github.com/SantzDesign/Santz]
- * [santiago@santz.co]
+ * [Web address]
+ * [contact@example.com]
  */
 
 /*
@@ -34,37 +34,34 @@
  * Variables
  */
 
-  $text-color:              #2e2e2e;
-  $link-color:              #ccc;
-  $font-size:               16px;
-  $line-height:             1.4;
-  $sans-serif-font-family:  'Roboto', sans-serif;
-  $serif-font-family:       'Times New Roman', serif;
+  $textColor:               #000000;
+  $linkColor:               blue;
+  $fontSize:                16px;
+  $lineHeight:              1.6;
+  $sansSerif:               'Dosis', sans-serif;
+  $serif:                   'Times New Roman', serif;
 
-  $ultra-bold:              900;
   $bold:                    700;
-  $medium:                  500;
   $normal:                  400;
   $light:                   300;
-  $thin:                    100;
 
-  $body-bg:                 #dfdfdf;
-  $selection-bg:            #3f6079;
-  $selection-color:         #f8fafb;
+  $bodyBg:                  #dfdfdf;
+  $selectionBg:             #3f6079;
+  $selectionColor:          #f8fafb;
 
-  $transitions-timing:      0.3s;
+  $transitionsTiming:       0.3s;
 
-  $cursor-disabled:         not-allowed;
+  $cursorDisabled:          not-allowed;
 
 /*
  * Main
  */
 
   body {
-    font: $normal $font-size $sans-serif-font-family;
-    line-height: $line-height;
-    color: $text-color;
-    background: $body-bg;
+    font: $normal $fontSize $sansSerif;
+    line-height: $lineHeight;
+    color: $textColor;
+    background: $bodyBg;
     min-width: 320px;
   }
 
@@ -75,20 +72,20 @@
 
   a {
     text-decoration: none;
-    color: $link-color;
+    color: $linkColor;
 
-    @include transition(color $transitions-timing ease, background-color $transitions-timing ease, border-color $transitions-timing ease, opacity $transitions-timing ease, visibility $transitions-timing ease, transform $transitions-timing ease);
+    @include transition(color $transitionsTiming ease);
   }
 
   ::-moz-selection {
-    background: $selection-bg;
-    color: $selection-color;
+    background: $selectionBg;
+    color: $selectionColor;
     text-shadow: none;
   }
 
   ::selection {
-    background: $selection-bg;
-    color: $selection-color;
+    background: $selectionBg;
+    color: $selectionColor;
     text-shadow: none;
   }
 

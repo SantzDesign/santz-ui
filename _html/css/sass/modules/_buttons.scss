@@ -1,4 +1,4 @@
-.btn {
+.button {
   display: inline-block;
   margin-bottom: 0;
   text-align: center;
@@ -31,7 +31,7 @@
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
-    cursor: $cursor-disabled;
+    cursor: $cursorDisabled;
     pointer-events: none;
   }
 }

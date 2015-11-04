@@ -1,66 +1,27 @@
-# Santz Front-end Bolierplate
+# Santz UI development boilerplate
 
-Santz front-end boilerplate. Responsive, HTML5, retina-ready, IE9+
+Santz's (S)CSS guidelines
+
+> “Every line of code should appear to be written by a single person, no matter the number of contributors.” —@mdo
 
 
-### Setup folder structure
+### Folder structure
 
 The bolierplate has 5 main folders:
- * CSS, which contains a SASS folder for development and the main compiled CSS file
- * Fonts
- * Images
- * Includes
- * JavaScript
+ * /css - which contains a /sass folder for development and the main compiled CSS file
+ * /fonts
+ * /images
+ * /includes
+ * /js
 
 
-### Make CSS consistent
+### Guidelines
 
-Having consistent rules which each developer abodes by means that teams can quickly scale without introducing confusion about how a component works.
+Fortunately, my CSS guidelines were pretty much like Dropbox's brand new ones. I therefore dropped mine. Simply check theirs [here](https://github.com/dropbox/css-style-guide).
 
-##### 1) Class names should contain hyphens
+There's only this formatting thing I want to keep a standard: 2 **space** tabs should be used in files!
 
-Just convention. Prettier.
-
-##### 2) Use nesting sparingly
-
-If using a pre-processor, don't nest more the 3 times if possible. This simplifies resulting CSS rules and makes specificity easier.
-
-##### 3) Only use IDs when necessary  
-
-IDs are fine in the following contexts.
- * Forms
- * Anchors
-
-IDs should not be used as a styling tool.
-
-##### 4) General style guidelines
-
-CSS should be beautifully designed, just as the site you are coding. Keep these in mind:
-
- * { on same line as selector
- * Space between rule and brace ( ".asd {" NOT ".asd{" )
- * Properties on new line, unless if it's a single property
- * Properties in somekind of logical order
- * space between property and value colon ( "display: none" NOT "display:none" )
- * 1 line between rules
- * 2 space tabs should be used in files
-
-See example...
-
-    .class {
-      property: value;
-
-      @include anymixin(value);
-
-      &.class { property: value; }
-
-      &.class {
-        property: value;
-        property: value;
-      }
-    }
-
-ALWAYS keep your CSS modular. Separate assets from page specifics. Do not repeat yourself. Produce clean code, avoid hacks, and since we're already 2014+, try to stop supporting old browsers (being this IE8 for instance...) since by doing that you are just delaying web development future.
+ALWAYS keep your CSS modular. Separate assets from page specifics. Do not repeat yourself. Produce clean code, avoid hacks, and since we're already 2015+, try to stop supporting old browsers (being this IE8 for instance... and even IE9 I dare to say) since by doing that you are just delaying web *development*.
 
 
 ### Workflow
@@ -89,7 +50,8 @@ All in all, always produce lean and optimized CSS code, always use hardware acce
 
 ### Credits
 
- - Bootstrap, grid concepts // http://getbootstrap.com
- - Skeleton, grid // http://www.getskeleton.com
- - Normalize.css // http://necolas.github.io/normalize.css
- - Bourbon // http://bourbon.io
+ - Bootstrap, grid concepts - http://getbootstrap.com
+ - Skeleton, grid - http://www.getskeleton.com
+ - Normalize.css - http://necolas.github.io/normalize.css
+ - Bourbon - http://bourbon.io
+ - Dropbox - https://github.com/dropbox/css-style-guide

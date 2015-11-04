@@ -9,12 +9,12 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  // margin-bottom: $line-height-computed;
-  // font-size: ($font-size-base * 1.5);
+  // margin-bottom: value;
+  // font-size: value;
   line-height: inherit;
-  // color: $legend-color;
+  // color: value;
   border: 0;
-  // border-bottom: 1px solid $legend-border-color;
+  // border-bottom: value;
 }
 
 label {
@@ -50,36 +50,36 @@ input[type="checkbox"]:focus { }
 
 output {
   display: block;
-  // padding-top: ($padding-base-vertical + 1);
-  // font-size: $font-size-base;
-  // line-height: $line-height-base;
-  // color: $input-color;
+  // padding-top: value;
+  // font-size: value;
+  // line-height: value;
+  // color: value;
 }
 
 .form-control {
   display: block;
   width: 100%;
-  // height: ; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+  // height: value; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
   padding: 10px 14px;
-  font-size: $font-size;
-  line-height: $line-height;
+  font-size: $fontSize;
+  line-height: $lineHeight;
   color: #ccc;
   background-color: #fff;
   background-image: none;
   border: 1px solid #000;
   border-radius: 3px;
 
-  @include transition(border-color ease $transitions-timing);
+  @include transition(border-color ease $transitionsTiming);
 
   &[disabled],
   &[readonly],
   fieldset[disabled] & {
-    // background-color: $input-bg-disabled;
+    // background-color: value;
     opacity: 1; // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655
   }
 
   &[disabled],
-  fieldset[disabled] & { cursor: $cursor-disabled; }
+  fieldset[disabled] & { cursor: $cursorDisabled; }
 }
 
 textarea.form-control { height: auto; }
@@ -114,7 +114,7 @@ input[type="search"] { -webkit-appearance: none; }
   input[type="date"],
   input[type="time"],
   input[type="datetime-local"],
-  input[type="month"] { line-height: $line-height; }
+  input[type="month"] { line-height: $lineHeight; }
 }
 
 .form-group { margin-bottom: 20px; }
@@ -127,7 +127,7 @@ input[type="search"] { -webkit-appearance: none; }
   margin-bottom: 10px;
 
   label {
-    // min-height: $line-height-computed; // Ensure the input doesn't jump when there is no text
+    // min-height: value; // Ensure the input doesn't jump when there is no text
     padding-left: 20px;
     margin-bottom: 0;
     font-weight: normal;
@@ -168,19 +168,19 @@ input[type="radio"],
 input[type="checkbox"] {
   &[disabled],
   &.disabled,
-  fieldset[disabled] & { cursor: $cursor-disabled; }
+  fieldset[disabled] & { cursor: $cursorDisabled; }
 }
 
 .radio-inline,
 .checkbox-inline {
   &.disabled,
-  fieldset[disabled] & { cursor: $cursor-disabled; }
+  fieldset[disabled] & { cursor: $cursorDisabled; }
 }
 
 .radio,
 .checkbox {
   &.disabled,
   fieldset[disabled] & {
-    label { cursor: $cursor-disabled; }
+    label { cursor: $cursorDisabled; }
   }
 }

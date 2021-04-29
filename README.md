@@ -1,4 +1,4 @@
-# Santz UI development boilerplate
+# Santz UI Development Boilerplate
 
 Santz's (S)CSS guidelines
 

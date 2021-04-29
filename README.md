@@ -1,6 +1,6 @@
 # Santz UI Development Boilerplate
 
-Santz's (S)CSS guidelines
+Santz's (S)CSS Guidelines
 
 > “Every line of code should appear to be written by a single person, no matter the number of contributors.” —@mdo
 
